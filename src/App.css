@@ -300,6 +300,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+
+@media (max-width: 988px) {
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  span.navbar-text {
+    display: block;
+  }
+
+  .navbar-text button {
+    display: block;
+
+  }
+
+  .social-icon {
+    margin-bottom: 28px
+  }
+}
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
