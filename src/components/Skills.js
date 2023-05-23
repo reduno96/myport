@@ -35,7 +35,6 @@ export const Skills = () => {
             <Col xs={12}>
               <div className="section-title">
                 <h2>Skills</h2>
-                <p>Here are some of my programming skills </p>
               </div>
               <div className="skill-bx wow zoomIn">
                 <Carousel

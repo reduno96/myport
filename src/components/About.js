@@ -10,7 +10,6 @@ export const About = () => {
         <div className="about-bx">
           <div className="section-title">
             <h2>About</h2>
-            <p>Learn more about me</p>
           </div>
           <Row className="formation justify-content-around">
             <Col xl={4}>
