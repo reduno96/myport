@@ -334,7 +334,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: linear-gradient(90.21deg, rgba(0, 255, 255, 0.5) -5.91%, rgba(52, 52, 52, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
   display: inline-block;
 }
 
@@ -396,6 +396,159 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .txt-rotate>.wrap {
   border-right: 0.08em solid #666;
+}
+
+/************ About Css ************/
+
+.about {
+  padding: 0 0 50px 0;
+  position: relative;
+  background-color: #1e1e1e54;
+}
+
+.about-bx {
+  background: black;
+  border-radius: 50px;
+  padding: 60px 40px;
+}
+
+.formation {
+  margin-bottom: 50px;
+}
+
+.section-title h2 {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  display: inline-block;
+  background: linear-gradient(90.21deg, rgba(0, 255, 255, 0.5) -5.91%, rgba(52, 52, 52, 0.5) 111.58%);
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.about-bx h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #18d26e;
+}
+
+.about-bx ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-bx ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about-bx ul strong {
+  margin-right: 10px;
+}
+
+@media (max-width: 1188px) {
+
+  .about .formation img {
+    display: none;
+  }
+}
+
+.chevron {
+  background: linear-gradient(90.21deg, rgba(0, 255, 255, 0.5) -5.91%, rgba(52, 52, 52, 0.5) 111.58%);
+  margin-right: 6px;
+  ;
+}
+
+.about .parag {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+  margin-bottom: 15px;
+}
+
+/* Skills */
+
+
+.skills {
+  padding: 0 0 50px 0;
+  position: relative;
+  background-color: #1e1e1e54;
+}
+
+.skills-bx {
+  background: black;
+  border-radius: 50px;
+  padding: 60px 40px;
+}
+
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+
+.skills-bx .item h5 {
+  text-align: center;
+}
+
+.skills-content .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills-content .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.skills-content .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills-content .progress-bar-wrap {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.skills-content .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background: linear-gradient(90.21deg, rgba(255, 0, 255, 0.5) -5.91%, rgba(0, 255, 255, 0.5) 111.58%);
 }
 
 /* Overraide Container react-bootstrp  */
