@@ -95,6 +95,36 @@ export const Skills = () => {
                   ></div>
                 </div>
               </div>
+              <div className="progress">
+                <span className="skill">
+                  JavaScript <i className="val">80%</i>
+                </span>
+                <div className="progress-bar-wrap">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style={{ width: "80%" }}
+                  ></div>
+                </div>
+              </div>
+              <div className="progress">
+                <span className="skill">
+                  JavaScript <i className="val">80%</i>
+                </span>
+                <div className="progress-bar-wrap">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style={{ width: "80%" }}
+                  ></div>
+                </div>
+              </div>
 
               <div className="progress">
                 <span className="skill">
@@ -113,6 +143,36 @@ export const Skills = () => {
               </div>
             </Col>
             <Col xl={6}>
+              <div className="progress">
+                <span className="skill">
+                  JavaScript <i className="val">80%</i>
+                </span>
+                <div className="progress-bar-wrap">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style={{ width: "80%" }}
+                  ></div>
+                </div>
+              </div>
+              <div className="progress">
+                <span className="skill">
+                  JavaScript <i className="val">80%</i>
+                </span>
+                <div className="progress-bar-wrap">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style={{ width: "80%" }}
+                  ></div>
+                </div>
+              </div>
               <div className="progress">
                 <span className="skill">
                   React.js <i className="val">80%</i>

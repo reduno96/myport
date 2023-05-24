@@ -1,5 +1,5 @@
-import { Container, Row, Col } from "react-bootstrap";
-
+import { Container } from "react-bootstrap";
+import ExamplePdf from "../assets/img/1684749108169.pdf";
 export const Resume = () => {
   return (
     <section className="resume" id="resume">
@@ -114,10 +114,16 @@ export const Resume = () => {
                 <p></p>
               </div>
             </div>
-
-            <button class="button-connect">
-              <span>Click To Download </span>
-            </button>
+            <a
+              href={ExamplePdf}
+              download="Example-PDF-document"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button class="button-connect">
+                <span>Click To Download </span>
+              </button>
+            </a>
           </div>
         </div>
       </Container>
