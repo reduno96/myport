@@ -144,7 +144,7 @@ export const Portfolio = () => {
                           <Nav.Link eventKey="first">Projects</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                          <Nav.Link eventKey="second">Certification</Nav.Link>
+                          <Nav.Link eventKey="second">Certifications</Nav.Link>
                         </Nav.Item>
                       </Nav>
                       <Tab.Content
