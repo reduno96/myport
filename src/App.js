@@ -5,7 +5,7 @@ import { Banner } from "./components/Banner";
 import { About } from "./components/About";
 import { Skills } from "./components/Skills";
 import { Resume } from "./components/Resume";
-// import { Projects } from "./components/Projects";
+import { Portfolio } from "./components/Portfolio";
 // import { Contact } from "./components/Contact";
 // import { Footer } from "./components/Footer";
 
@@ -17,8 +17,8 @@ function App() {
       <About />
       <Skills />
       <Resume />
-      {/* <Projects />
-      <Contact />
+      <Portfolio />
+      {/* <Contact />
       <Footer /> */}
     </div>
   );
