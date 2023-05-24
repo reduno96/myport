@@ -1,5 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import { Certification } from "./Certification";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
@@ -8,6 +9,15 @@ import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
 import projImg8 from "../assets/img/project-img8.png";
+
+import picCer1 from "../assets/img/cer1.png";
+import picCer2 from "../assets/img/cer2.png";
+import picCer3 from "../assets/img/cer3.png";
+import picCer4 from "../assets/img/cer4.png";
+import picCer5 from "../assets/img/cer5.png";
+import picCer6 from "../assets/img/cer6.png";
+import picCer7 from "../assets/img/cer7.png";
+
 // import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -63,8 +73,53 @@ export const Portfolio = () => {
     },
   ];
 
+  const certifications = [
+    {
+      title: "JavaScript Algorithms And Data Structure",
+      description: "FreeCodeCamp",
+      imgUrl: picCer1,
+      tabAttrs: "/static/media/cer1.19606b016b4d92102c83.png",
+    },
+    {
+      title: "Portfolio Website",
+      description: "React.js & Bootstrap",
+      imgUrl: picCer2,
+      tabAttrs: "/static/media/cer2.72a891f7c3ed51fa56a5.png",
+    },
+    {
+      title: "Portfolio Website",
+      description: "React.js & Bootstrap",
+      imgUrl: picCer3,
+      tabAttrs: "/static/media/cer3.2553208a983b8270fcc0.png",
+    },
+    {
+      title: "Portfolio Website",
+      description: "React.js & Bootstrap",
+      imgUrl: picCer4,
+      tabAttrs: "/static/media/cer4.d0d26ce76cabe0a7d749.png",
+    },
+    {
+      title: "Portfolio Website",
+      description: "React.js & Bootstrap",
+      imgUrl: picCer5,
+      tabAttrs: "/static/media/cer5.c63ee0792b79980af4e7.png",
+    },
+    {
+      title: "Portfolio Website",
+      description: "React.js & Bootstrap",
+      imgUrl: picCer6,
+      tabAttrs: "/static/media/cer6.523afa5f19a7e354a1e0.png",
+    },
+    {
+      title: "Portfolio Website",
+      description: "React.js & Bootstrap",
+      imgUrl: picCer7,
+      tabAttrs: "/static/media/cer7.0999bcc281063f462e75.png",
+    },
+  ];
+
   return (
-    <section className="project" id="project">
+    <section className="project" id="portfolio">
       <Container>
         <div className="resume-bx">
           <div className="section-title">
@@ -107,14 +162,12 @@ export const Portfolio = () => {
                             })}
                           </Row>
                         </Tab.Pane>
-                        <Tab.Pane eventKey="section">
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Cumque quam, quod neque provident velit, rem
-                            explicabo excepturi id illo molestiae blanditiis,
-                            eligendi dicta officiis asperiores delectus quasi
-                            inventore debitis quo.
-                          </p>
+                        <Tab.Pane eventKey="second">
+                          <Row>
+                            {certifications.map((cert, index) => {
+                              return <Certification key={index} {...cert} />;
+                            })}
+                          </Row>
                         </Tab.Pane>
                       </Tab.Content>
                     </Tab.Container>
