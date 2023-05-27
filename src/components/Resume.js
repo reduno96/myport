@@ -120,7 +120,7 @@ export const Resume = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button class="button-connect">
+              <button className="button-connect">
                 <span>Click To Download </span>
               </button>
             </a>

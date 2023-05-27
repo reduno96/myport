@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img-min.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-// import "animate.css";
+import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Banner = () => {
@@ -72,7 +72,7 @@ export const Banner = () => {
                     {`Hi! I'm Redouane`}{" "}
                     <span
                       className="txt-rotate"
-                      dataPeriod="800"
+                      data-period="800"
                       data-rotate='[ "Full Stack Developer", "Back-End Developer", "Front-End Developer" ]'
                     >
                       <span className="wrap">{text}</span>
