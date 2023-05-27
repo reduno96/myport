@@ -27,7 +27,7 @@ export const Portfolio = () => {
       title: "Portfolio Website",
       description: "React.js & Bootstrap",
       imgUrl: projImg1,
-      tabAttrs: "https://reduno96.github.io/Third-Tempalte/",
+      tabAttrs: "https://reduno96.github.io/myport/",
     },
     {
       title: "Dashboard",
@@ -77,44 +77,44 @@ export const Portfolio = () => {
     {
       title: "JavaScript Algorithms And Data Structure",
       description: "FreeCodeCamp",
-      imgUrl: picCer1,
-      tabAttrs: "/static/media/cer1.19606b016b4d92102c83.png",
+      imgUrl: picCer6,
+      tabAttrs: picCer6,
     },
     {
       title: "Portfolio Website",
       description: "React.js & Bootstrap",
       imgUrl: picCer2,
-      tabAttrs: "/static/media/cer2.72a891f7c3ed51fa56a5.png",
+      tabAttrs: picCer2,
     },
     {
       title: "Portfolio Website",
       description: "React.js & Bootstrap",
       imgUrl: picCer3,
-      tabAttrs: "/static/media/cer3.2553208a983b8270fcc0.png",
+      tabAttrs: picCer3,
     },
     {
       title: "Portfolio Website",
       description: "React.js & Bootstrap",
       imgUrl: picCer4,
-      tabAttrs: "/static/media/cer4.d0d26ce76cabe0a7d749.png",
+      tabAttrs: picCer4,
     },
     {
       title: "Portfolio Website",
       description: "React.js & Bootstrap",
       imgUrl: picCer5,
-      tabAttrs: "/static/media/cer5.c63ee0792b79980af4e7.png",
+      tabAttrs: picCer5,
     },
     {
       title: "Portfolio Website",
       description: "React.js & Bootstrap",
-      imgUrl: picCer6,
-      tabAttrs: "/static/media/cer6.523afa5f19a7e354a1e0.png",
+      imgUrl: picCer1,
+      tabAttrs: picCer1,
     },
     {
       title: "Portfolio Website",
       description: "React.js & Bootstrap",
       imgUrl: picCer7,
-      tabAttrs: "/static/media/cer7.0999bcc281063f462e75.png",
+      tabAttrs: picCer7,
     },
   ];
 

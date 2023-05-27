@@ -134,10 +134,11 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
-  text-shadow: 0 0 4px #18d26e,
-    0 0 8px #18d26e,
+  text-shadow: 0 0 4px #C69320,
+    0 0 8px #C69320,
     0 0 16px #ff00ff;
   transition: 0.3s ease-in-out;
+
 
 }
 
@@ -229,7 +230,7 @@ nav.navbar span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background: linear-gradient(90.21deg, rgba(24, 210, 110, 0.9) -5.91%, rgba(52, 52, 52, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgb(238, 182, 9, 0.9) -5.91%, rgba(183, 134, 40, 0.5) 111.58%);
   left: 0;
   top: 0;
   z-index: -1;
@@ -331,7 +332,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(24, 210, 110, 0.9) -5.91%, rgba(52, 52, 52, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgb(238, 182, 9, 0.9) -5.91%, rgba(183, 134, 40, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 18px;
@@ -432,7 +433,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 120px;
   height: 2px;
   display: inline-block;
-  background: linear-gradient(90.21deg, rgba(24, 210, 110, 0.9) -5.91%, rgba(52, 52, 52, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgb(238, 182, 9, 0.9) -5.91%, rgba(183, 134, 40, 0.5) 111.58%);
   margin: 4px 10px;
 }
 
@@ -448,7 +449,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .about-bx h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #C69320;
 }
 
 .about-bx ul {
@@ -474,7 +475,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .chevron {
-  background: linear-gradient(90.21deg, rgba(24, 210, 110, 0.9) -5.91%, rgba(52, 52, 52, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgb(238, 182, 9, 0.9) -5.91%, rgba(183, 134, 40, 0.5) 111.58%);
   margin-right: 6px;
   ;
 }
@@ -586,7 +587,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  color: #C69320;
   margin-bottom: 10px;
 }
 
@@ -619,8 +620,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #C69320;
+  border: 2px solid #C69320;
 }
 
 .resume .button-connect {
@@ -643,7 +644,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 0%;
   height: 100%;
   position: absolute;
-  background: linear-gradient(90.21deg, rgba(24, 210, 110, 0.9) -5.91%, rgba(52, 52, 52, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgb(238, 182, 9, 0.9) -5.91%, rgba(183, 134, 40, 0.5) 111.58%);
   left: 0;
   top: 0;
   z-index: 99999999999;
@@ -708,7 +709,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   width: 0;
   height: 100%;
-  background: linear-gradient(90.21deg, rgba(24, 210, 110, 0.9) -5.91%, rgba(83, 82, 82, 0.3) 111.58%);
+  background: linear-gradient(90.21deg, rgb(238, 182, 9, 0.9) -5.91%, rgba(183, 134, 40, 0.5) 111.58%);
   top: 0;
   left: 0;
   z-index: -1;
@@ -747,7 +748,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, rgba(24, 210, 110, 1) -5.91%, rgba(83, 82, 82, 0.6) 111.58%);
+  background: linear-gradient(90.21deg, rgb(238, 182, 9, 0.9) -5.91%, rgba(183, 134, 40, 0.5) 111.58%);
   opacity: 1;
   position: absolute;
   width: 100%;
@@ -800,13 +801,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 8px;
   width: fit-content;
   border: 1px solid white;
-  background-color: #18d26e;
+  background-color: #C69320;
 }
 
 /************ Projects Css ************/
 
 .contact {
-  background: linear-gradient(90.21deg, rgba(24, 210, 110, 1) -5.91%, rgba(83, 82, 82, 0.6) 111.58%);
+  background: linear-gradient(90.21deg, rgb(238, 182, 9, 0.9) -5.91%, rgba(183, 134, 40, 0.5) 111.58%);
   padding: 60px 0 200px 0;
 }
 
@@ -928,7 +929,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .new-email-bx::before {
   content: "";
-  background: linear-gradient(90.21deg, rgba(24, 210, 110, 0.9) -5.91%, rgba(52, 52, 52, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgb(238, 182, 9, 0.9) -5.91%, rgba(183, 134, 40, 0.5) 111.58%);
   border-radius: 20px;
   position: absolute;
   z-index: -1;
@@ -960,7 +961,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .new-email-bx button {
-  background: linear-gradient(90.21deg, rgba(24, 210, 110, 0.9) -5.91%, rgba(52, 52, 52, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgb(238, 182, 9, 0.9) -5.91%, rgba(183, 134, 40, 0.5) 111.58%);
   padding: 17px 12px;
   color: #fff;
   font-weight: 500;
