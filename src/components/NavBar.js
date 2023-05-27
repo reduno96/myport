@@ -133,7 +133,7 @@ export const NavBar = () => {
                 </a>
                 <a
                   className="twitter"
-                  href="https://twitter.com/home"
+                  href="https://twitter.com/MotivRed"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
