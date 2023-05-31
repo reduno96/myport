@@ -15,11 +15,9 @@ export const ProjectCard = ({ title, description, imgUrl, tabAttrs }) => {
             <h4>{title}</h4>
             <span>{description}</span>
             <div className="button-connect">
-              {/* <a href={tabAttrs} target="_blank" rel="noreferrer"> */}
               <button>
                 <span>DEMO</span>
               </button>
-              {/* </a> */}
             </div>
           </div>
         </div>
