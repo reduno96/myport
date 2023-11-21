@@ -201,7 +201,7 @@ nav.navbar span.navbar-text {
 }
 
 .social-icon a.twitter::before {
-  background-color: #1da1f2;
+  background-color: black;
 }
 
 .social-icon a:hover::before {
